@@ -1,0 +1,51 @@
+{
+  "name": "Send Email",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A1: Send Email",
+  "description": "Sends email to an email address",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/SendEmail",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "UserEmailAddress",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "EmailSubject",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "EmailMessage",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "SentBoolean",
+      "type": "boolean"
+    }
+  ]
+}
